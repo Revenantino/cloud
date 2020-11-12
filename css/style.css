@@ -1,0 +1,78 @@
+body {
+        background-image: url("wallp2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+}
+div.tableABOUT {
+  width:100%;
+  text-align: middle;
+  position: relative;
+  bottom:400px;
+  left:20%;
+}
+div.boxmodel1 {
+  background-color: white;
+  width: 50%;
+  height: 65%;
+  border: 25px solid black;
+  padding: 25px;
+  margin-left:25%;
+}
+div.boxmodel {
+  background-color: white;
+  width: 600px;
+  height: 100%;
+  border: 25px solid black;
+  padding: 25px;
+  margin: 25px;
+}
+div.relativeForH1 {
+  position: relative;
+  top: -40px;
+}
+div.relativeForP {
+  position: relative;
+  top: -70px;
+}
+div.relativeForH2 {
+  position: relative;
+  top: -40px;
+}
+ul.index {
+    position: relative;
+    top: -120px;
+    list-style-type: none;
+    border: 10px solid white;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+    min-width: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  
+ .index li a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid white;
+    padding: 30px;
+    margin: 0;
+    text-decoration: none;
+  }
+.index li a:hover {
+    background-color: grey;
+}
+
+ .task li a {
+    color: black;
+}
+
+.imgDmytro {
+    position: relative;
+    left: 5%;
+}
