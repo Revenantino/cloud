@@ -1,6 +1,6 @@
  FROM nginx:latest
 
- COPY index.html /cloud
+ COPY index.html /
 
  EXPOSE 80 443     
 
